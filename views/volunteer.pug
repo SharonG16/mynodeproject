@@ -4,9 +4,14 @@ html
     body.container-fluid
         include includes/header
         block content
+          main(role='main')
+        .jumbotron
+          h1.display-3 Volunteers Needed Please sign up
+          p.lead
+            |
+            | Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
           p
-           img(src="../images/volunteer1.jpg" style="width:850px;height:260px;margin-left:220px")
-          p
+          
           h5 Volunteer Form
           form.needs-validation(novalidate='')
             .form-row
@@ -47,13 +52,13 @@ html
                   | You must agree before submitting.
             button.btn.btn-primary(type='submit') Submit form
           script.
-            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            
             (function() {
             'use strict';
             window.addEventListener('load', function() {
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            
             var forms = document.getElementsByClassName('needs-validation');
-            // Loop over them and prevent submission
+            
             var validation = Array.prototype.filter.call(forms, function(form) {
             form.addEventListener('submit', function(event) {
             if (form.checkValidity() === false) {
