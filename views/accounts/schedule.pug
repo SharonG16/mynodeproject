@@ -1,0 +1,17 @@
+extends ../layout
+
+block content
+  h1 Schedule A Pick up
+
+  form(method="POST")
+    .form-group
+      label(for="addressInput") Address
+      input.form-control#addressInput(
+        name="address"
+        type="address"
+        aria-describedby="addressHelp"
+        placeholder="Enter address"
+      )
+
+  
+    button.btn.btn-primary(type="submit") Submit

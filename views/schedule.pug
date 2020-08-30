@@ -1,0 +1,27 @@
+doctype html
+html 
+    include includes/head
+    body.container-fluid
+        include includes/header
+        block content
+         main(role='main')
+        .jumbotron
+          h1.display-3 Schedule For Pick Up
+          p.lead
+            | Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          p
+            a.btn.btn-lg.btn-success(href='/fillupform', role='button') Fill up application
+        .row.marketing
+          .col-lg-6
+            h4 Items We Accept
+            p
+              | Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Maecenas faucibus mollis interdum.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            
+          .col-lg-6
+            h4 Drop Off Locations
+            p
+              | Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Maecenas faucibus mollis interdum.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            
+            
+        include includes/footer
+        include includes/foot
