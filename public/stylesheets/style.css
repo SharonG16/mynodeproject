@@ -7168,11 +7168,22 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
   padding: 90px; }
 
 .jumbotron {
-  background-image: url("../images/jumbotron1.png");
+  background-image: url("../images/volunteer3.jpg");
   background-size: cover; }
 
 .jumbotron1 {
   background-image: url("../images/jumbotron1.png");
+  background-size: cover; }
+
+.container1 {
+  background-image: url("../images/volunteerb.jpg"); }
+
+.JumboHeadImg {
+  background-image: url("../images/jumbotron1.png");
+  background-size: cover; }
+
+.JumboHeadImg2 {
+  background-image: url("../images/volunteer-4.jpg");
   background-size: cover; }
 
 .display-3 {
