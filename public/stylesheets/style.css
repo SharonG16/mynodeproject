@@ -7171,12 +7171,8 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
   background-image: url("../images/volunteer3.jpg");
   background-size: cover; }
 
-.jumbotron1 {
-  background-image: url("../images/jumbotron1.png");
-  background-size: cover; }
-
-.container1 {
-  background-image: url("../images/volunteerb.jpg"); }
+.container {
+  padding: 60px; }
 
 .JumboHeadImg {
   background-image: url("../images/jumbotron1.png");
@@ -7191,16 +7187,15 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
   color: blue;
   text-align: center; }
 
-.row.marketing {
-  color: #000080; }
+.bg-4 {
+  background-color: #ee93bd;
+  color: #fff; }
 
-.footer {
+footer.container-fluid, footer.container-sm, footer.container-md, footer.container-lg, footer.container-xl {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #ffb6e6; }
+  height: 65px;
+  padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */
