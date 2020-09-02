@@ -7,9 +7,11 @@ exports.signupForm = function(req, res) {
 
 exports.create = function(req, res) {
     var address = req.body.address;
+    var date = req.body.date;
 
     var newSchedule = new Schedule({
       address: address,
+      date: date
     });
 
     newSchedule.save(function(err) {
