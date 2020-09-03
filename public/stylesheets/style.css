@@ -7175,7 +7175,7 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
   padding: 60px; }
 
 .JumboHeadImg {
-  background-image: url("../images/jumbotron1.png");
+  background-image: url("../images/volunteer-d1.jpg");
   background-size: cover; }
 
 .JumboHeadImg2 {
@@ -7195,7 +7195,7 @@ footer.container-fluid, footer.container-sm, footer.container-md, footer.contain
   position: fixed;
   left: 0;
   bottom: 0;
-  height: 65px;
+  height: 60px;
   padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */
