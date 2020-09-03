@@ -3,7 +3,7 @@ var scheduleController = require('../controllers/schedules');
 var router = express.Router();
 
 router 
-  .route('/fillupform')
+  .route('/scheduleform')
   .get(scheduleController.signupForm)
   .post(scheduleController.create)
 

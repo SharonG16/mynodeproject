@@ -16,7 +16,7 @@ router.get('/volunteer', function(req, res, next) {
   res.render('volunteer', { title: 'Calgary Children Society' });
 });
 
-/* GET schedule page. */
+/* GET schedule for pick up page. */
 router.get('/schedule', function(req, res, next) {
   res.render('schedule', { title: 'Calgary Children Society' });
 });
