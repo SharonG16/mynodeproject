@@ -11,13 +11,13 @@ exports.create = function(req, res) {
 
     var newSchedule = new Schedule({
       address: address,
-      date: date
+      date: date,
     });
 
     newSchedule.save(function(err) {
       if (err) throw err;
 
-      console.log('Address saved successfully!');
+      console.log('Schedule saved successfully!');
     });
 
     res.redirect('/');
