@@ -7168,7 +7168,7 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
   padding: 90px; }
 
 .jumbotron {
-  background-image: url("../images/about.jpg");
+  background-image: url("../images/about2.jpg");
   background-size: cover; }
 
 .container {
@@ -7190,6 +7190,9 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
 .bg-4 {
   background-color: #ee93bd;
   color: #fff; }
+
+.col-lg-12 {
+  padding: 25px; }
 
 footer.container-fluid, footer.container-sm, footer.container-md, footer.container-lg, footer.container-xl {
   position: fixed;

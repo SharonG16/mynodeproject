@@ -9,34 +9,32 @@ block content
       input.form-control#firstnameInput(
         name="firstname"
         type="firstname"
-        aria-describedby="firstnameHelp"
         placeholder="Enter First Name"
       )
 
     .form-group
       label(for="lastnameInput") Last Name
-      input.form-control#firstnameInput(
+      input.form-control#lastnameInput(
         name="lastname"
         type="lastname"
-        aria-describedby="lastnameHelp"
         placeholder="Enter Last Name"
       )
+      
     .form-group
       label(for="addressInput") Address
-      input.form-control#firstnameInput(
+      input.form-control#addressInput(
         name="address"
-        type="address"
-        aria-describedby="addressHelp"
+        type="address"        
         placeholder="Enter Address"
       )
 
     .form-group
-      label(for="phonenumberInput") Phonenumber
-      input.form-control#firstnameInput(
+      label(for="phonenumberInput") Phone number
+      input.form-control#phonenumber(
         name="phonenumber"
         type="phonenumber"
-        aria-describedby="phonenumberHelp"
-        placeholder="Enter Phone Number"
+        placeholder="Phone Number"
+           
       )
   
     button.btn.btn-primary(type="submit") Submit
