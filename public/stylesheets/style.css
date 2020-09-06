@@ -7156,7 +7156,7 @@ a.text-dark:hover, a.text-dark:focus {
 body.container {
   margin-bottom: 60px;
   background-image: url("../images/img1.jpg");
-  height: 668px;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -7198,7 +7198,7 @@ footer.container-fluid, footer.container-sm, footer.container-md, footer.contain
   position: fixed;
   left: 0;
   bottom: 0;
-  height: 60px;
+  height: 65px;
   padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */
