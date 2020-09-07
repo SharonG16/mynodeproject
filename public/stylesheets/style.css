@@ -7167,9 +7167,10 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
   margin-bottom: 60px;
   padding: 90px; }
 
-.jumbotron {
+.jumbotron.JumboAboutImg {
   background-image: url("../images/about2.jpg");
-  background-size: cover; }
+  background-size: cover;
+  height: 300px; }
 
 .container {
   padding: 60px; }
