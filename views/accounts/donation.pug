@@ -1,0 +1,40 @@
+extends ../layout
+
+block content
+  h1 Donation Form
+
+  form(method="POST")
+    .form-group
+      label(for="fullnameInput") Full Name
+      input.form-control#fullnameInput(
+        name="fullname"
+        type="fullname"
+        placeholder="Enter Full Name"
+      )
+
+    .form-group
+      label(for="email") Email
+      input.form-control#emailInput(
+        name="email"
+        type="email"
+        placeholder="Email"
+      )  
+
+    .form-group
+      label(for="phonenumberInput") Phonenumber
+      input.form-control#phonenumberInput(
+        name="phonenumber"
+        type="phonenumber"
+        placeholder="Enter phonenumber"
+      )
+
+    .form-group
+      label(for="amount") Amount (CAD)
+      input.form-control#amountInput(
+        name="amount"
+        type="amount"
+        placeholder="Amount"
+      )  
+
+  
+    button.btn.btn-primary(type="submit") Submit
