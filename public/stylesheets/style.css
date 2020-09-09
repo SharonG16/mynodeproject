@@ -7183,11 +7183,6 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
   background-image: url("../images/schedule.jpg");
   background-size: cover; }
 
-.jumbotron-fluid {
-  background-image: url("../images/donation.png");
-  background-size: cover;
-  height: 300px; }
-
 .display-3 {
   background-color: #f4f4f4;
   color: blue;
@@ -7199,6 +7194,11 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
 
 .col-lg-12 {
   padding: 25px; }
+
+.responsive {
+  width: 100%;
+  max-width: 1025px;
+  height: auto; }
 
 footer.container-fluid, footer.container-sm, footer.container-md, footer.container-lg, footer.container-xl {
   position: fixed;
