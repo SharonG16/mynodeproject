@@ -2,7 +2,7 @@ var express = require('express');
 var Donation = require('../models/donation');
 
 exports.signupForm = function(req, res) {
-    res.render('forms/donation');
+    res.render('donations/new');
 };
 
 exports.create = function(req, res) {

@@ -2,7 +2,7 @@ var express = require('express');
 var Volunteer = require('../models/volunteer');
 
 exports.signupForm = function(req, res) {
-    res.render('forms/volunteer');
+    res.render('volunteers/new');
 };
 
 exports.create = function(req, res) {
