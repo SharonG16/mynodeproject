@@ -18,7 +18,6 @@ db.once('open', function() {
 });
 
 var indexRouter = require('./routes/index');
-var accountsRouter = require('./routes/accounts');
 var schedulesRouter = require('./routes/schedules');
 var volunteersRouter = require('./routes/volunteers');
 var donationsRouter = require('./routes/donations');
@@ -42,7 +41,6 @@ app.use(sassMiddleware({
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/', accountsRouter);
 app.use('/', schedulesRouter);
 app.use('/', volunteersRouter);
 app.use('/', donationsRouter);
