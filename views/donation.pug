@@ -1,0 +1,36 @@
+doctype html
+html 
+    include includes/head
+    body.container-fluid
+        include includes/header
+        block content
+         main(role='main')
+        .jumbotron.JumboDonationImg
+          h1.display-3 Support Our Cause
+          p.lead.text-white
+            | Please click the link below to donate.
+          p
+            a.btn.btn-lg.btn-success(href='/donationform', role='button') DONATE NOW
+
+        .row
+          .col-lg-6
+            h4 Supporting Calgary Children's Society
+            ul
+              li Give warm,nutritios food
+              li Could buy a set of school supplies
+              li Support cost for sending kids to camps
+              li Offer medical attention and support
+              li Could purchase winter clothing 
+              li Provide a safe sanctuary
+              li And much more
+
+              
+               
+          .col-lg-6
+            h4 Several ways to Donate
+            p
+               | Your gift today allows us to continue helping those in need towards a hope-filled future. CCS offer several options to make donation. You can click the link above to make donation online also if you would like to make a monthly giving, you can contact our office during business hours. You can also purchase tickets for our upcoming fundraising events such as golf tournament, bake sale, gala, workshops and more to come. We are also in the works in making an online shop for merchandize fundraising so please check it out in the future.
+            
+            
+        include includes/footer
+        include includes/foot

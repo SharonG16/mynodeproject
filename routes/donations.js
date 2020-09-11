@@ -3,7 +3,7 @@ var donationController = require('../controllers/donations');
 var router = express.Router();
 
 router 
-  .route('/donate')
+  .route('/donationform')
   .get(donationController.signupForm)
   .post(donationController.create)
 

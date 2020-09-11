@@ -21,6 +21,10 @@ router.get('/schedule', function(req, res, next) {
   res.render('schedule', { title: 'Calgary Children Society' });
 });
 
+/* GET donate page. */
+router.get('/donate', function(req, res, next) {
+  res.render('donation', { title: 'Calgary Children Society' });
+});
 
 module.exports = router;
 

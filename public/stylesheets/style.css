@@ -7183,6 +7183,10 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
   background-image: url("../images/schedule.jpg");
   background-size: cover; }
 
+.JumboDonationImg {
+  background-image: url("../images/donation.jpg");
+  background-size: cover; }
+
 .display-3 {
   background-color: #f4f4f4;
   color: blue;
