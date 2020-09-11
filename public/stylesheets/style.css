@@ -7167,7 +7167,7 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
   margin-bottom: 60px;
   padding: 80px; }
 
-.jumbotron.JumboAboutImg {
+.JumboAboutImg {
   background-image: url("../images/about2.jpg");
   background-size: cover;
   height: 300px; }
@@ -7185,7 +7185,8 @@ body.container-fluid, body.container-sm, body.container-md, body.container-lg, b
 
 .JumboDonationImg {
   background-image: url("../images/donation.jpg");
-  background-size: cover; }
+  background-size: cover;
+  height: 375px; }
 
 .display-3 {
   background-color: #f4f4f4;
