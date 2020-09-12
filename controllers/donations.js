@@ -3,7 +3,7 @@ var Donation = require('../models/donation');
 
 
 
-exports.signupForm = function(req, res) {
+exports.donationForm = function(req, res) {
     res.render('donations/new');
 };
 

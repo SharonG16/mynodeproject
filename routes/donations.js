@@ -5,7 +5,7 @@ var router = express.Router();
 
 router 
   .route('/donationform')
-  .get(donationController.signupForm)
+  .get(donationController.donationForm)
   .post(donationController.create)
 
 module.exports = router;

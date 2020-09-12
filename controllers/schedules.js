@@ -1,7 +1,7 @@
 var express = require('express');
 var Schedule = require('../models/schedule');
 
-exports.signupForm = function(req, res) {
+exports.scheduleForm = function(req, res) {
     res.render('schedules/new');
 };
 

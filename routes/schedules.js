@@ -6,7 +6,7 @@ var router = express.Router();
 
 router 
   .route('/scheduleform')
-  .get(scheduleController.signupForm)
+  .get(scheduleController.scheduleForm)
   .post(scheduleController.create)
 
 
