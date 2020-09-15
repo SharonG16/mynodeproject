@@ -4,7 +4,7 @@ var router = express.Router();
 
 router 
   .route('/volunteerform')
-  .get(volunteerController.signupForm)
+  .get(volunteerController.volunteerForm)
   .post(volunteerController.create)
 
 module.exports = router;

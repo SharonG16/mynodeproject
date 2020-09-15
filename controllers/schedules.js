@@ -2,16 +2,18 @@ var express = require('express');
 var Schedule = require('../models/schedule');
 
 exports.scheduleForm = function(req, res) {
-    res.render('forms/schedule');
+    res.render('schedules/new');
 };
 
 exports.create = function(req, res) {
     var address = req.body.address;
     var date = req.body.date;
+    var time = req.body.time;
 
     var newSchedule = new Schedule({
       address: address,
       date: date,
+      time: time,
     });
 
     newSchedule.save(function(err) {

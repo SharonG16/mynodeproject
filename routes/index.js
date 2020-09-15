@@ -18,12 +18,12 @@ router.get('/volunteer', function(req, res, next) {
 
 /* GET schedule for pick up page. */
 router.get('/schedule', function(req, res, next) {
-  res.render('schedule', { title: 'Calgary Children Society' });
+  res.render('schedulepickup', { title: 'Calgary Children Society' });
 });
 
 /* GET donate page. */
 router.get('/donate', function(req, res, next) {
-  res.render('donation', { title: 'Calgary Children Society' });
+  res.render('donate', { title: 'Calgary Children Society' });
 });
 
 
