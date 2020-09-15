@@ -1,0 +1,50 @@
+extends ../layout
+
+
+block content
+  img.responsive(src="../images/donation1.png" alt='donation' style='width:1025px; height:400px') 
+  p
+   |
+  h1 Donation Form
+
+  form(method="POST")
+    .form-group
+      label(for="fullnameInput") Full Name
+      input.form-control#fullnameInput(
+        name="fullname"
+        type="fullname"
+        required
+        placeholder="Enter Full Name"
+      )
+
+    .form-group
+      label(for="email") Email
+      input.form-control#emailInput(
+        name="email"
+        type="email"
+        required
+        placeholder="Email"
+      )  
+
+    .form-group
+      label(for="phonenumberInput") Phone number
+      input.form-control#phonenumberInput(
+        name="phonenumber" 
+        type="phonenumber"
+        required
+        placeholder="Enter phone number"
+      )
+
+    .form-group
+      label(for="amount") Amount (CAD)
+      input.form-control#amountInput(
+        name="amount"
+        type="amount"
+        required
+        placeholder="Amount"
+      )  
+
+  
+    button.btn.btn-primary(type="submit") Submit
+
+  
