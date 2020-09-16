@@ -13,7 +13,7 @@ router.get('/about', function(req, res, next) {
 
 /* GET volunteer page. */
 router.get('/volunteer', function(req, res, next) {
-  res.render('volunteer', { title: 'Calgary Children Society' });
+  res.render('volunteer_main', { title: 'Calgary Children Society' });
 });
 
 /* GET schedule for pick up page. */
